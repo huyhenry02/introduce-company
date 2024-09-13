@@ -692,6 +692,93 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Hero-Search
+--------------------------------------------------------------*/
+
+.hero-search {
+  margin-top: 50px;
+}
+
+.hero-search-filter-container {
+  background: #061827;
+  padding: 40px 32px;
+  border-radius: 10px;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.hero-search-filter-input-container {
+  position: relative;
+  display: flex;
+  flex-grow: 8;
+  height: 58px;
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 24px;
+}
+
+.hero-search-filter-textBox {
+  display: flex;
+  width: 40%;
+  height: 58px;
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.hero-search-filter-textBox input.form-control {
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0 10px;
+  border-radius: 0;
+  width: 100%;
+  color: #495057;
+  flex-grow: 1;
+}
+
+.hero-search-filter-dropdown {
+  width: 30%;
+}
+
+.hero-search-button {
+  width: 170px;
+  margin-left: 15px;
+}
+
+.hero-search-button .btn {
+  background: #23B5BB;
+  border-radius: 5px;
+  height: 58px;
+  width: 100%;
+  font-size: 18px;
+  color: #fff;
+}
+
+.hero-search-filter-dropdown select {
+  width: 100%;
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0 0 0 12px;
+  border-radius: 0;
+  color: #000;
+  border-left: 1px solid #E0E2E9;
+  height: 29px;
+  outline: none;
+}
+
+.hero-search-filter-dropdown-address select {
+  margin-left: 12px;
+}
+
+/*--------------------------------------------------------------
 # Constructions Section
 --------------------------------------------------------------*/
 .constructions .card-item {
